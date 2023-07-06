@@ -1,4 +1,3 @@
-```python
 from transformers import AutoModelForCausalLM, AutoTokenizer, StoppingCriteria, StoppingCriteriaList
 import torch
 
@@ -33,4 +32,3 @@ class SimpleChatBotModel:
             stopping_criteria=StoppingCriteriaList([StopOnTokens()])
         )
         return self.tokenizer.decode(tokens[0], skip_special_tokens=True)
-```

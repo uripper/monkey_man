@@ -1,4 +1,3 @@
-```python
 import os
 
 class Settings:
@@ -17,4 +16,3 @@ class Settings:
         self.host = new_host
 
 settings = Settings()
-```

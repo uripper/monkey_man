@@ -1,4 +1,3 @@
-```javascript
 document.addEventListener('DOMContentLoaded', (event) => {
     const userInput = document.getElementById('user-input');
     const submitButton = document.getElementById('submit-button');
@@ -38,4 +37,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
-```

@@ -1,0 +1,8 @@
+/app/poetry_install.py
+/venv
+poetry.lock
+VERSION
+pyproject.toml
+app/__pycache__/api.cpython-311.pyc
+app/__pycache__/gui.cpython-311.pyc
+app/__pycache__/models.cpython-311.pyc
