@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <div id="app">
+        <h1>ChatBot</h1>
+        <div id="chat-window">
+            <!-- Chat messages will be appended here -->
+        </div>
+        <div id="user-input">
+            <textarea id="message-input" placeholder="Type your message here..."></textarea>
+            <button id="send-button">Send</button>
+        </div>
+        <div id="settings">
+            <label for="model-name">Model:</label>
+            <input type="text" id="model-name" value="rockerBOO/stablelm-tuned-alpha-3b-16bit">
+            <button id="save-settings">Save Settings</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
